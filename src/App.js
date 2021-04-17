@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import {add,inc} from './store/createActions/ageAction'
-import './App.css';
 @connect(
   state => ({ age: state.Age }),
   {add, inc}
