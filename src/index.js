@@ -1,6 +1,6 @@
-import React from 'react';
-import {render} from 'react-dom';
-import Router from './router';
+import React from 'react'
+import {render} from 'react-dom'
+import Router from './router'
 
 render(
   <Router />,
